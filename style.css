@@ -154,6 +154,12 @@ body {
     display: none;
 }
 
+.copyright {
+    font-size: 0.5rem;
+    color: #555;
+    padding: 10px 0;
+}
+
 @media (min-width: 600px) {
     .countdown-wrapper {
         flex-direction: row;
@@ -170,9 +176,4 @@ body {
     .btn {
         max-width: 48%;
     }
-    .copyright {
-    font-size: 0.5rem;
-    color: #555;
-    padding: 10px 0;
-}
 }
