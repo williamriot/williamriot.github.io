@@ -176,4 +176,8 @@ body {
     .btn {
         max-width: 48%;
     }
+
+    .copyright {
+    font-size: 0.2rem;    
+}
 }
