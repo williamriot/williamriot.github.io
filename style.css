@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff0f7;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header, .pie {
+    width: 100%;
+    display: block;
+}
+
+.intro {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.nombre {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+    color: #c490d1;
+    margin: 0.5rem 0;
+}
+
+.datos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.fecha {
+    background: #fcddec;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #d63384;
+}
+
+.countdown-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.lateral {
+    max-width: 140px;
+}
+
+.contador-box {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.titulo-contador {
+    font-style: italic;
+    color: #FAB42F;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.flip-clock {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+
+    .flip-clock div {
+        background: #fcddec;
+        padding: 0.5rem;
+        border-radius: 10px;
+        min-width: 60px;
+        box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .flip-clock span {
+        display: block;
+        font-size: 1.5rem;
+        color: #d63384;
+    }
+
+.direccion {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1.5rem 1rem;
+}
+
+.btn {
+    padding: 0.8rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.ubicacion {
+    background-color: #ff6f91;
+}
+
+.confirmacion {
+    background-color: #59caff;
+}
+
+.audio-control {
+    margin-top: 20px;
+}
+
+.audio-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f8bbd0;
+    border: none;
+    font-size: 24px;
+    color: #5a3752;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+    .audio-btn:hover {
+        background-color: #f48fb1;
+    }
+
+#audio-player {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .countdown-wrapper {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .botones {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .btn {
+        max-width: 48%;
+    }
+}

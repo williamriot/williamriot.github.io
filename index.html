@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitación Ellie Victoria</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <img src="img/header.jpg" alt="Encabezado" class="header" />
+        <div class="countdown-wrapper">
+            <img src="img/lateral.png" alt="Decoración abeja" class="lateral" />
+            <div class="contador-box">
+                <!--<p class="titulo-contador">¿Cuánto falta?</p>-->
+                <div style="text-align:center">
+                    <img src="img/title2.png" alt="title" />
+
+                </div>
+                <br />
+
+                <div class="flip-clock" id="countdown">
+                    <div><span id="days">00</span><small>Días</small></div>
+                    <div><span id="hours">00</span><small>Horas</small></div>
+                    <div><span id="minutes">00</span><small>Min.</small></div>
+                    <div><span id="seconds">00</span><small>Seg.</small></div>
+                </div>
+                <br />
+                <div class="direccion">
+                    <strong>Dirección:</strong><br>
+                    Carrera 81 No. 77 - 51 Sur<br>
+                    Conjunto Macarena 3
+                </div>
+            </div>
+        </div>
+        <div class="botones">
+            <a href="https://maps.app.goo.gl/CwPJZxzJ4hkZ7eTy9" target="_blank">
+                <img src="img/ubicacion.png" alt="Ver ubicación" />
+            </a>
+            <a href="https://wa.me/573106741475?text=Hola%2C+confirmo+mi+asistencia+al+cumpleaños+de+Victoria" target="_blank">
+                <img src="img/contacto.png" alt="Confirma tu asistencia" />
+            </a>
+        </div>
+
+        <div class="direccion">
+            He aquí, herencia de Jehová son los hijos;
+            <br>
+            Cosa de estima el fruto del vientre.
+            <br>
+            Salmos 127:3
+        </div>
+
+        <div class="audio-control">
+            <button class="audio-btn" id="btn-musica">▶️</button>
+            <audio id="audio-player" loop>
+                <source src="img/musica.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio HTML5.
+            </audio>
+        </div>
+
+        <img src="img/pie.png" alt="Pie de página" class="pie" />
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
