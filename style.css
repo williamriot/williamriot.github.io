@@ -170,4 +170,9 @@ body {
     .btn {
         max-width: 48%;
     }
+    .copyright {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 10px 0;
+}
 }
